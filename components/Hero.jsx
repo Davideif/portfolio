@@ -18,7 +18,7 @@ export default function Hero() {
           <a href="#contact" className={styles.secondary}>Get in touch</a>
         </div>
         <div className={styles.stack}>
-          {['Next.js', 'React', 'MongoDB', 'Node.js', 'Tailwind', 'Vercel'].map(tech => (
+          {['Next.js', 'TypeScript', 'React', 'MongoDB', 'Node.js', 'Tailwind', 'Vercel'].map(tech => (
             <span key={tech} className={styles.tag}>{tech}</span>
           ))}
         </div>

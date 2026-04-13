@@ -5,7 +5,7 @@ const projects = [
     title: 'Full-Stack Blog CMS',
     description:
       'A complete content management system where admins can create, edit, and delete posts through a protected dashboard, while visitors browse a clean public blog.',
-    tags: ['Next.js', 'MongoDB', 'NextAuth', 'Tailwind', 'Vercel'],
+    tags: ['Next.js', 'TypeScript', 'MongoDB', 'NextAuth', 'Tailwind', 'Vercel'],
     live: 'https://blogcms-mocha.vercel.app/',
     github: 'https://github.com/Davideif/Blog',
     highlights: ['Auth & role-based access', 'Full CRUD dashboard', 'Public blog with slug routing'],
