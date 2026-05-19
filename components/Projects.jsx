@@ -5,11 +5,41 @@ const projects = [
     title: 'Full-Stack Blog CMS',
     description:
       'A complete content management system where admins can create, edit, and delete posts through a protected dashboard, while visitors browse a clean public blog.',
-    tags: ['Next.js', 'TypeScript', 'MongoDB', 'NextAuth', 'Tailwind', 'Vercel'],
+    tags: ['Next.js', 'TypeScript', 'MongoDB', 'NextAuth', 'Tailwind', 'Vercel','Cloudinary'],
     live: 'https://blogcms-mocha.vercel.app/',
     github: 'https://github.com/Davideif/Blog',
-    highlights: ['Auth & role-based access', 'Full CRUD dashboard', 'Public blog with slug routing'],
+    highlights: [
+      'Auth & role-based access',
+      'Full CRUD dashboard',
+      'Public blog with slug routing',
+    ],
     accent: '#E8530A',
+  },
+  {
+    title: 'Principles',
+    description:
+      'A personal wisdom app that helps users collect lessons from books, podcasts, and life experience — then uses AI to reflect their own principles back during difficult situations and decisions.',
+    tags: [
+      'Next.js 15',
+      'TypeScript',
+      'Supabase',
+      'NextAuth',
+      'Google OAuth',
+      'Gemini AI',
+      'Tailwind CSS',
+      'Shadcn UI',
+      'Vercel',
+    ],
+    live: 'https://principles-green.vercel.app/',
+    github: 'https://github.com/Davideif/Principles',
+    highlights: [
+      'AI-powered situation analysis using personal principles',
+      'Google OAuth authentication',
+      'Principles library with tagging & sources',
+      'Dashboard with stats and situation history',
+      'Responsive mobile-first design',
+    ],
+    accent: '#4F46E5',
   },
 ]
 

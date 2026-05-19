@@ -1,8 +1,8 @@
 import styles from './About.module.css'
 
 const skills = [
-  { category: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS', 'HTML/CSS'] },
-  { category: 'Backend', items: ['Node.js', 'MongoDB', 'Mongoose', 'REST APIs'] },
+  { category: 'Frontend', items: ['React', 'Next.js', 'Tailwind CSS', 'HTML/CSS', 'Shadcn UI'] },
+  { category: 'Backend', items: ['Node.js', 'MongoDB', 'Mongoose', 'REST APIs', 'SQL', 'Supabase'] },
   { category: 'Tools', items: ['Git & GitHub', 'Vercel', 'VS Code'] },
 ]
 
